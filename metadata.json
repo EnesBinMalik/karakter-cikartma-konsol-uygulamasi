@@ -1,0 +1,6 @@
+{
+  "name": "Karakter Çıkartma Konsol Uygulaması - Enes Öztürk",
+  "description": "Verilen string ifade içerisinden belirtilen indisteki karakteri çıkartan konsol uygulaması ve interaktif algoritma terminali. Telif hakları Enes Öztürk'e aittir.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
