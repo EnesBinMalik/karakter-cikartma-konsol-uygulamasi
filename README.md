@@ -1,57 +1,42 @@
-# Karakter Çıkartma Konsol Uygulaması
+# Karakter Çıkartma Konsol Uygulaması - Enes Öztürk
 
-Metin ve sıfır tabanlı bir indeks alarak seçilen karakteri çıkaran etkileşimli algoritma uygulaması. Tekli veya toplu girdileri işleyebilir; geçersiz ve metin sınırları dışındaki indeksleri açıklayıp sonucu görsel konsolda gösterir.
+![Karakter Çıkartma Konsol Uygulaması - Enes Öztürk — rozet](docs/rozet.svg)
 
-## Özellikler
+> **Veri analizi · modelleme** — tasarım ve geliştirme: **Enes Öztürk**
 
-- `metin,indeks` biçiminde tekli ve toplu girdi işleme
-- Seçilen konumdaki karakteri çıkarıp sonucu üretme
-- Geçersiz biçim ve sınır dışı indeksleri açıklama
-- Karakter konumlarını ve işlem adımlarını görselleştirme
-- Terminal simülatörü ve algoritma izleme
-- Örnek kaynak kodlarını birden fazla programlama dilinde inceleme
-- Toplu işleme ve algoritma açıklamaları
+---
 
-## Teknolojiler
+Verilen string ifade içerisinden belirtilen indisteki karakteri çıkartan konsol uygulaması ve interaktif algoritma terminali. Telif hakları Enes Öztürk'e aittir.
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
+## Öne çıkanlar
 
-## Gereksinimler
-
-- Node.js LTS
-- npm
+- Veri temizleme ve hazırlık
+- İstatistiksel özet ve görselleştirme
+- Modelleme ve tahmin adımları
+- Yönetici özeti ve rapor görünümü
 
 ## Kurulum ve çalıştırma
 
 ```bash
 npm install
-npm run dev
+npm run dev        # http://localhost:3000
 ```
 
-Geliştirme sunucusu başladıktan sonra terminalde gösterilen yerel adresi tarayıcıda açın.
-
-## Kontroller ve üretim derlemesi
-
-```bash
-npm run lint
-npm run build
-```
-
-`npm run lint` TypeScript tip denetimini, `npm run build` ise üretim derlemesini çalıştırır. Derlemeyi yerel olarak görüntülemek için `npm run build` sonrasında `npm run preview` komutunu kullanın.
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | geliştirme sunucusu |
+| `npm run build` | üretim derlemesi |
 
 ## Proje yapısı
 
-- `src/utils/algorithm.ts` — girdi çiftlerini işleme ve karakter çıkarma algoritması
-- `src/components/` — terminal, toplu işleme, görsel inceleme ve kod örnekleri
-- `src/App.tsx` — uygulama akışı ve ekran bileşenlerinin koordinasyonu
-- `src/main.tsx` — uygulama giriş noktası
+```
+├── index.html
+├── package.json
+├── docs/rozet.svg        # imza rozeti
+└── src/                  # uygulama kaynakları
+```
 
-## Kullanım
+## Lisans
 
-1. Bir veya daha fazla `metin,indeks` çifti girin.
-2. İndeksin sıfır tabanlı olduğunu unutmayın; ilk karakterin indeksi `0`’dır.
-3. İşlemi çalıştırıp çıkarılan karakteri ve sonucu inceleyin.
-4. Toplu işlemde her çiftin sonucu ve açıklaması ayrı gösterilir.
+Bu proje **Enes Öztürk** tarafından geliştirilmiştir; tüm hakları saklıdır.
